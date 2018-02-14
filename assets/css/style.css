@@ -331,14 +331,14 @@ ul.navbar-nav {
 }
 
 
-/***** Services *****/
+/***** differential *****/
 
-.services-box {
+.differential-box {
 	padding: 50px;
 	text-align: center;
 }
 
-.services-box .services-box-icon {
+.differential-box .differential-box-icon {
 	width: 80px;
 	height: 80px;
 	margin: 0 auto;
@@ -359,7 +359,7 @@ ul.navbar-nav {
     -o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
 }
 
-.services-box h3 {
+.differential-box h3 {
 	margin-top: 0;
 	padding: 0 0 10px 0;
 }
@@ -496,8 +496,9 @@ ul.navbar-nav {
 /***** musicians *****/
 
 .musicians-box {
+  max-width: 200px;
 	margin-top: 30px;
-	text-align: left;
+	text-align: center;
 }
 
 .musicians-box-image {
@@ -506,6 +507,7 @@ ul.navbar-nav {
 }
 
 .musicians-box-image img {
+  max-width: 80%;
 	-o-transition: all .8s; -moz-transition: all .8s; -webkit-transition: all .8s; -ms-transition: all .8s; transition: all .8s;
 }
 
@@ -519,13 +521,6 @@ ul.navbar-nav {
 .musicians-box h3 a { color: #555; }
 .musicians-box h3 a:hover, .musicians-box h3 a:focus { color: #ff8a38; }
 
-.musicians-box h3 i {
-	padding-left: 10px;
-	color: #ccc;
-	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
-}
-.musicians-box h3:hover i { padding-left: 15px; }
-
 .musicians-box-date {
 	padding-bottom: 10px;
 	font-size: 14px;
@@ -533,15 +528,14 @@ ul.navbar-nav {
 	text-transform: uppercase;
 }
 
-.musicians-box-date i {
-	padding-right: 5px;
-	color: #ddd;
-}
-
 .musicians-container .section-bottom-button {
 	padding-top: 40px;
 }
 
+.container .row_ceremony {
+  height: 300px;
+  width: 800px;
+}
 
 /***** Footer *****/
 
@@ -549,11 +543,15 @@ footer {
 	padding: 40px 0 0 0;
 	background: #444;
 	color: #aaa;
-	text-align: left;
+	text-align: center;
 }
 
 footer h3 {
 	color: #aaa;
+}
+
+.footer-copyright img {
+  max-width: 30%;
 }
 
 .contact-form {
